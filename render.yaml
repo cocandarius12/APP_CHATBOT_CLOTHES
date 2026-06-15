@@ -1,0 +1,18 @@
+# Configurare deploy Render — un singur serviciu (backend servește și frontend-ul).
+# Dacă urci pe GitHub DOAR folderul chatbot-standalone, lasă fără rootDir.
+# Dacă urci tot repo-ul SERGIUAPP, decomentează rootDir.
+services:
+  - type: web
+    name: chatbot-standalone
+    runtime: node
+    plan: free
+    # rootDir: chatbot-standalone
+    buildCommand: npm install && npm run build
+    startCommand: node backend/server.js
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false          # o setezi manual în dashboard (secret)
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: NODE_VERSION
+        value: "20.11.1"

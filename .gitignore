@@ -1,0 +1,14 @@
+# dependențe
+node_modules/
+**/node_modules/
+
+# build frontend
+dist/
+
+# secrete — NU urca cheile pe GitHub
+.env
+backend/.env
+
+# snapshot brut (sute de MB) — pe GitHub urcăm doar products.json
+backend/data/unified_data_snapshot.json
+*.log

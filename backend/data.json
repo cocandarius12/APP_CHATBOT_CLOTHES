@@ -1,0 +1,48 @@
+{
+  "productTemplates": [
+    {
+      "id": "p-001",
+      "sku": "TSHIRT-BLACK-001",
+      "name": "Tricou Negru Premium",
+      "brand": "PrintFlow",
+      "category": "tricouri",
+      "base_cost": 35,
+      "is_active": true,
+      "description": "Tricou bumbac 100% — croială confort.",
+      "personalization_options": ["broderie", "serigrafie"]
+    },
+    {
+      "id": "p-002",
+      "sku": "HOODIE-GREY-002",
+      "name": "Hanorac Gri",
+      "brand": "PrintFlow",
+      "category": "hanorace",
+      "base_cost": 85,
+      "is_active": true,
+      "description": "Hanorac cu glugă, buzunar marsupiu.",
+      "personalization_options": ["broderie", "transfer_termic"]
+    },
+    {
+      "id": "p-003",
+      "sku": "POLO-WHITE-003",
+      "name": "Polo Alb",
+      "brand": "PrintFlow",
+      "category": "tricouri",
+      "base_cost": 55,
+      "is_active": true,
+      "description": "Polo sport casual.",
+      "personalization_options": ["broderie"]
+    },
+    {
+      "id": "p-004",
+      "sku": "JACKET-BLUE-004",
+      "name": "Geacă Albastră",
+      "brand": "PrintFlow",
+      "category": "jachete",
+      "base_cost": 140,
+      "is_active": true,
+      "description": "Geacă rezistentă la ploaie.",
+      "personalization_options": ["sublimare"]
+    }
+  ]
+}
