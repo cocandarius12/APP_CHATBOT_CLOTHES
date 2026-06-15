@@ -115,6 +115,9 @@ export default function App() {
           value={input}
           onChange={e => setInput(e.target.value)}
           placeholder="Scrie un mesaj..."
+          enterKeyHint="send"
+          autoComplete="off"
+          autoCapitalize="sentences"
           onKeyDown={e => { if (e.key === 'Enter') send() }}
         />
         <button className="send" onClick={send} disabled={loading || !input.trim()} aria-label="Trimite">➤</button>
