@@ -11,4 +11,7 @@ backend/.env
 
 # snapshot brut (sute de MB) — pe GitHub urcăm doar products.json
 backend/data/unified_data_snapshot.json
+
+# date generate la runtime (coș, knowledge, learning) — local/ephemeral
+backend/store/
 *.log
